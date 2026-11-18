@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="realgore"
+version="1.0.0"
+displayName="Real Gore"
+description='''
+Зомби расчленяются (руки, ноги, голова), летят отдельные части тела,
+кровь брызжет и остаётся лужами на земле. Работает с любым оружием, в том числе с TaCZ.
+'''
+
+[[dependencies.realgore]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.realgore]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.21)"
+ordering="NONE"
+side="BOTH"
